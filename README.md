@@ -93,6 +93,18 @@ apm install microsoft/apm-sample-package#v1.0.0
 
 See the **[Getting Started guide](https://microsoft.github.io/apm/getting-started/quick-start/)** for the full walkthrough.
 
+## Works with agentrc
+
+[agentrc](https://github.com/microsoft/agentrc) analyzes your codebase and generates tailored agent instructions — architecture, conventions, build commands — from real code, not templates.
+
+The `.instructions.md` files agentrc produces are directly compatible with APM. Push a repo with agentrc-generated instructions, and any team member can install them:
+
+```bash
+apm install your-org/your-repo
+```
+
+Use agentrc to create the content. Use APM to distribute, version, and govern it.
+
 ## Community
 
 Created and maintained by [@danielmeppiel](https://github.com/danielmeppiel).
